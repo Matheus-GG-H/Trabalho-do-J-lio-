@@ -1,0 +1,30 @@
+fun main() {
+    println("Qual o genero de livro que voce gosta?")
+    println("1-Fantasia")
+    println("2-Romance")
+    println("3-Aventura")
+    println("4-Terror")
+
+    val escolha = readLine()
+    var recomendacao = ""
+
+    if (escolha == "1") {
+        recomendacao = "O Senhor dos Anéis"
+        println("Recomendação: 1 - $recomendacao")
+    } 
+    else if (escolha == "2") {
+        recomendacao = "A Culpa é das Estrelas"
+        println("Recomendação: 2 - $recomendacao")
+    } 
+    else if (escolha == "3") {
+        recomendacao = "Percy Jackson"
+        println("Recomendação: 3 - $recomendacao")
+    } 
+    else if (escolha == "4") {
+        recomendacao = "O Iluminado"
+        println("Recomendação: 4 - $recomendacao")
+    } 
+    else {
+        println("A opção é inválida")
+    }
+}
